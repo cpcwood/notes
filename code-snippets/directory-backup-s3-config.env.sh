@@ -1,0 +1,9 @@
+export ROTATION_PERIOD=                 # days to keep backups (exclude to stop backups from deleting)
+export BACKUP_NAME=                     # name of backup file
+export DIR_PATH=                        # path to directory to backup
+export AWS_ACCESS_KEY_ID=               # AWS IAM USER ID
+export AWS_SECRET_ACCESS_KEY=           # AWS IAM USER KEY
+export AWS_DEFAULT_REGION=              # aws s3 bucket region
+export S3_BUCKET=                       # aws s3 bucket name
+export GPG_KEY_ID=                      # id used in gpg key generation
+export GPG_KEY=
